@@ -1,0 +1,7 @@
+ body {
+   margin          : 0;
+   padding         : 0;
+   background-color: rgb(213, 220, 220);
+   box-sizing      : border-box;
+   font-family     : 'Roboto';
+ }

@@ -1,0 +1,41 @@
+.List {
+    min-width       : 300px;
+    margin-left     : 50px;
+    margin-top      : 30px;
+    min-height      : 150px;
+    background-color: rgb(207, 208, 208);
+    border-radius   : 10px;
+}
+
+.head {
+    display         : flex;
+    align-items     : center;
+    justify-content : space-between;
+    padding         : 6px;
+    border-radius   : 10px 10px 0 0;
+    background-color: rgb(171, 174, 174);
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.head div {
+    display: flex;
+    gap    : 10px;
+}
+
+
+.head div p {
+    cursor          : pointer;
+    display         : block;
+    border-radius   : 4px;
+    padding         : 4px;
+    background-color: rgb(213, 210, 205);
+}
+
+.taskQueue {
+    display       : flex;
+    flex-direction: column;
+    padding       : 6px;
+}

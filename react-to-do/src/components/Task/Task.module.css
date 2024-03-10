@@ -1,0 +1,25 @@
+.task {
+    cursor          : pointer;
+    min-width       : 300px;
+    min-height      : 50px;
+    max-width       : 300px;
+    word-wrap       : break-word;
+    background-color: rgb(230, 234, 237);
+    border-radius   : 0 0 4px 4px;
+    padding         : 3px;
+    margin-bottom   : 10px;
+}
+
+.task:hover {
+    background-color: rgb(249 249 249);
+}
+
+.head {
+    /* height: 40px; */
+    background-color: #848484;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    gap             : 5px;
+    padding         : 4px;
+}

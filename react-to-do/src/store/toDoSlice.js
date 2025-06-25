@@ -81,14 +81,6 @@ const toDoListSlice = createSlice({
       state.lists = state.lists.map((list) => updatedListsMap[list._id] || list);
 
       return;
-      // console.log(updTasks);
-      // updTasks.sort((a, b) => a.order - b.order);
-
-      // const rawList = state.lists.find(list => list._id.valueOf() === destinationListId);
-      // const updList = { ...rawList, tasks: updTasks };
-
-      // state.lists = state.lists.map(list => list._id === updList._id ? updList : list);
-      // return;
     },
   },
   extraReducers: (builder) => {
